@@ -10,7 +10,7 @@ export default function Card({
   className = "",
   ...props
 }) {
-  console.log(title, description, iconSrc);
+  // console.log(title, description, iconSrc);
 
   return (
     <div className={`card ${className}`} {...props}>

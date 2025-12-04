@@ -14,7 +14,7 @@ export default function WhyChoose({
   buttonText = "",
   features = [],
 }) {  
-  console.log(features);
+  // console.log(features);
 
   return (
     <section className="why-choose">

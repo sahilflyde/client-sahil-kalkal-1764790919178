@@ -13,6 +13,7 @@ export default async function Page() {
   }
 
   const site = await res.json();
+  // console.log(site.colors)
   const pageData = site?.pages?.find(p => p.route === "home");
 
   if (!pageData) {
